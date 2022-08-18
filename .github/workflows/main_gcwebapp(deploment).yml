@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'gcwebapp'
           slot-name: 'deploment'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9B99340DF8914FA19908EB7018A5362D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
